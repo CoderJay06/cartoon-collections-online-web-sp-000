@@ -15,8 +15,8 @@ def find_the_cheese(ingredients)
   counter = 0 
   while counter < ingredients.length 
     counter += 1
-    if ingredients[counter].include?(cheese_types[counter])
-      
+    if ingredients[counter].include?(cheese_types.each)
+      ingredients[counter]
     end
   end
 end 
