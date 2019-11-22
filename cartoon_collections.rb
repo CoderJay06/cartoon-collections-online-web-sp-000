@@ -12,10 +12,8 @@ end
 
 def find_the_cheese(ingredients)
   cheese_types = ["cheddar", "gouda", "camembert"]
-  ingredients.each do |cheese|
-  end
-  
-    if cheese.include? "cheddar" || cheese.include? "gouda" || cheese.include? "camembert"
-      return cheese
+  counter = 0 
+  while counter < ingredients.length 
+    counter +=1 
   end
 end
