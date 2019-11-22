@@ -15,6 +15,5 @@ def find_the_cheese(ingredients)
   ingredients.each do |cheese| 
     if cheese.include?("cheddar") || cheese.include?("gouda") || cheese.include?("camembert")
     end
-    cheese 
   end
 end
