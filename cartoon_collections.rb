@@ -11,7 +11,7 @@ def long_planeteer_calls(planeteer_calls)
 end
 
 def find_the_cheese(ingredients)
-  cheese_types = []
+  cheese_types = ["cheddar", "gouda", "camembert"]
   counter = 0 
   while counter < ingredients.length 
     counter +=1 
